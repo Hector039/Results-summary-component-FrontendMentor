@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap");
+/*font-family: 'Hanken Grotesk', sans-serif;*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(241, 81%, 54%);
+  background: linear-gradient(0deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%)) 100%;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 20px 30px 30px 30px;
+}
+
+.result-title {
+  color: hsl(241, 100%, 89%);
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.score-rounded {
+  background: linear-gradient(0deg, hsla(241, 72%, 46%, 0) 0%, hsl(256, 72%, 46%) 100%);
+  border-radius: 70px;
+  width: 90px;
+  padding: 20px;
+}
+
+.total-score {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+.over-undred {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.congrat {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 15px 0 5px 0;
+}
+
+.congrat-text {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  padding-inline: 25px;
+  font-size: 0.9;
+}
+
+.summary-title {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 20px 20px 0 30px;
+}
+
+.reaction-score {
+  background-color: hsla(0, 100%, 67%, 0.103);
+  padding: 20px;
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.reaction-category {
+  color: hsl(0, 100%, 67%);
+  font-weight: 600;
+}
+
+.score-category {
+  font-weight: 600;
+}
+
+.icon-category {
+  display: flex;
+  gap: 8px;
+}
+
+.score-over {
+  display: flex;
+  gap: 8px;
+}
+
+.memory-score {
+  background-color: hsla(39, 100%, 56%, 0.089);
+  padding: 20px;
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.memory-category {
+  color: hsl(39, 100%, 56%);
+  font-weight: 600;
+}
+
+.verbal-score {
+  background-color: hsla(166, 100%, 37%, 0.13);
+  padding: 20px;
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.verbal-category {
+  color: hsl(166, 100%, 37%);
+  font-weight: 600;
+}
+
+.visual-score {
+  background-color: hsla(234, 85%, 45%, 0.137);
+  padding: 20px;
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.visual-category {
+  color: hsl(234, 85%, 45%);
+  font-weight: 600;
+}
+
+button {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  border-style: none;
+  border-radius: 30px;
+  background-color: hsl(224, 30%, 27%);
+  margin-inline: 20px;
+  padding: 18px 25px 18px 25px;
+  display: flex;
+  justify-content: center;
+}
+button:hover {
+  background: hsl(241, 81%, 54%);
+  background: linear-gradient(0deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%)) 100%;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.attribution {
+  margin: 30px 0 15px 0;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    width: 560px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .result {
+    height: 375px;
+    width: 280px;
+    padding: 0;
+    border-radius: 20px;
+    gap: 10px;
+  }
+  .summary {
+    height: 350px;
+    width: 280px;
+    gap: 15px;
+  }
+  .reaction-score {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  .memory-score {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  .verbal-score {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  .visual-score {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  .over-undred {
+    font-size: 0.8rem;
+  }
+  button {
+    font-size: 0.8rem;
+    padding-block: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
